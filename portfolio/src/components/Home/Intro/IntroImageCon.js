@@ -17,6 +17,6 @@ export default IntroImageCon;
 const IntroImg = styled.div`
   display: flex;
   width: 50vw;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   justify-content: center;
 `;

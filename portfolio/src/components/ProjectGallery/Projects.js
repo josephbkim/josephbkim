@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProjectGallery from "./ProjectGallery/ProjectGallery";
+import ProjectGallery from "./ProjectGallery";
 
 class Projects extends Component {
   render() {

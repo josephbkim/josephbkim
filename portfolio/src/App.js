@@ -3,8 +3,14 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import NavBar from "./components/NavBar";
 import HomePage from "./components/HomePage";
-import Projects from "./components/Projects";
+import Projects from "./components/ProjectGallery/Projects";
 import Contact from "./components/Contact";
+
+// import { library } from "@fortawesome/fontawesome-svg-core";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faIgloo } from "@fortawesome/free-solid-svg-icons";
+
+// library.add(faIgloo);
 
 class App extends Component {
   render() {

@@ -8,9 +8,15 @@ class NavBar extends Component {
       <NavyDiv>
         <NameDiv>Joseph B Kim</NameDiv>
         <LinkDiv>
-          <Link to="/">Home</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/" style={{ color: "white" }}>
+            Home
+          </Link>
+          <Link to="/projects" style={{ color: "white" }}>
+            Projects
+          </Link>
+          <Link to="/contact" style={{ color: "white" }}>
+            Contact
+          </Link>
         </LinkDiv>
       </NavyDiv>
     );
@@ -24,6 +30,7 @@ const NavyDiv = styled.div`
   display: flex;
   /* justify-content: flex-end; */
   border: 1px solid black;
+  background: black;
 `;
 
 const NameDiv = styled.div`
@@ -31,6 +38,7 @@ const NameDiv = styled.div`
   padding-left: 2vw;
   align-self: center;
   width: 50%;
+  color: whitesmoke;
 `;
 
 const LinkDiv = styled.div`
@@ -39,4 +47,5 @@ const LinkDiv = styled.div`
   justify-content: space-around;
   align-self: center;
   width: 50%;
+  text-decoration: none;
 `;

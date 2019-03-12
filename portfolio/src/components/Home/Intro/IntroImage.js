@@ -13,7 +13,6 @@ const ImgDiv = styled.div`
   display: flex;
   justify-self: center;
   align-self: center;
-  height: 85%;
   width: 70%;
-  border: 1px solid black;
+  border: 2px solid darkslategray;
 `;

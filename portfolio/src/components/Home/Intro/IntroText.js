@@ -9,8 +9,10 @@ class IntroText extends Component {
           <h2>Hello!</h2>
           <div>My Name is Joe and I'm a Web Developer!</div>
           <div>I'm a former commercial construction</div>{" "}
-          <div>project manager turned developer.</div>
-          <div>I love to create things and fix things.</div>
+          <div>project manager and I have a passion for</div>
+          <div>creating things, fixing things, and </div>
+          <div>helping people find what they are looking</div>
+          <div>for...</div>
         </div>
       </IntroTextDiv>
     );
@@ -24,4 +26,7 @@ const IntroTextDiv = styled.div`
   width: 50vw;
   justify-content: center;
   align-items: center;
+  font-size: 2.5vh;
+  padding-bottom: 4vh;
+  font-family: "kaushan Script", cursive;
 `;
