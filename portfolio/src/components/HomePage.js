@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import Intro from "./Intro/Intro";
 import WorkHistoryContainer from "./Home/WorkHistory/WorkHistoryContainer";
 import SkillsContainer from "./Home/Skills/SkillsContainer";
+import Intro from "./Home/Intro/Intro";
+import Footer from "./Home/Footer/Footer";
 
 class HomePage extends Component {
   render() {
@@ -11,6 +12,7 @@ class HomePage extends Component {
         <Intro />
         <SkillsContainer />
         <WorkHistoryContainer />
+        <Footer />
       </PageDiv>
     );
   }

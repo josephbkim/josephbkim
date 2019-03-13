@@ -23,10 +23,11 @@ export default IntroText;
 
 const IntroTextDiv = styled.div`
   display: flex;
-  width: 50vw;
+  width: 40vw;
   justify-content: center;
   align-items: center;
-  font-size: 2.5vh;
+  font-size: 2.5vmin;
   padding-bottom: 4vh;
   font-family: "kaushan Script", cursive;
+  margin: 0 auto 0 8vw;
 `;

@@ -17,6 +17,7 @@ export default SkillsContainer;
 
 const SkillConDiv = styled.div`
   height: 50vh;
-  background-color: whitesmoke;
+  background-color: white;
   text-align: center;
+  font-family: Cinzel, sans-serif;
 `;

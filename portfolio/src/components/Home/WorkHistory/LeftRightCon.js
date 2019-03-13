@@ -18,7 +18,6 @@ export default LeftRightCon;
 
 const LeftRightDiv = styled.div`
   display: flex;
-  height: 35vh;
-  width: 80%;
-  margin: 0 auto;
+  height: 37vh;
+  width: 100%;
 `;

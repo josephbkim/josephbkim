@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import DropDown from "./Home/Footer/DropDown";
 
 class NavBar extends Component {
   render() {
@@ -8,15 +8,7 @@ class NavBar extends Component {
       <NavyDiv>
         <NameDiv>Joseph B Kim</NameDiv>
         <LinkDiv>
-          <Link to="/" style={{ color: "white" }}>
-            Home
-          </Link>
-          <Link to="/projects" style={{ color: "white" }}>
-            Projects
-          </Link>
-          <Link to="/contact" style={{ color: "white" }}>
-            Contact
-          </Link>
+          <DropDown />
         </LinkDiv>
       </NavyDiv>
     );
@@ -30,12 +22,12 @@ const NavyDiv = styled.div`
   display: flex;
   /* justify-content: flex-end; */
   border: 1px solid black;
-  background: black;
+  background: #000000;
 `;
 
 const NameDiv = styled.div`
   font-family: "kaushan Script", cursive;
-  padding-left: 2vw;
+  padding-left: 11vw;
   align-self: center;
   width: 50%;
   color: whitesmoke;
@@ -43,9 +35,12 @@ const NameDiv = styled.div`
 
 const LinkDiv = styled.div`
   display: flex;
-  font-family: "Pragati Narrow", sans-serif;
+  font-family: Cinzel, sans-serif;
+  font-size: 85%;
+  font-weight: bold;
   justify-content: space-around;
   align-self: center;
   width: 50%;
   text-decoration: none;
+  padding-right: 7vw;
 `;

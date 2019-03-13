@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { NONAME } from "dns";
+// import { NONAME } from "dns";
 var FontAwesome = require("react-fontawesome");
 
 class SkillsDisplay extends Component {

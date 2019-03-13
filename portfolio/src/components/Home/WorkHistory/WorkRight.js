@@ -5,7 +5,7 @@ class WorkRight extends Component {
   render() {
     return (
       <WorkRightDiv>
-        <h3>This is Now!</h3>
+        <h3>..And Now</h3>
       </WorkRightDiv>
     );
   }
@@ -14,5 +14,9 @@ class WorkRight extends Component {
 export default WorkRight;
 
 const WorkRightDiv = styled.div`
-  width: 50%;
+  width: 40%;
+  margin: 0 8vw 0 auto;
+  background-color: white;
+  border-radius: 1%;
+  box-shadow: 6px 8px 2px 1px rgba(0, 0, 0, 0.25);
 `;

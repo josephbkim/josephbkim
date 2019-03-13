@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import IntroText from "./IntroText";
-import IntroImage from "./IntroImage";
+import IntroImageCon from "./IntroImageCon";
 
 class Intro extends Component {
   render() {
     return (
       <IntroDiv>
         <IntroText />
-        <IntroImage />
+        <IntroImageCon />
       </IntroDiv>
     );
   }
@@ -20,5 +20,5 @@ const IntroDiv = styled.div`
   display: flex;
   height: 50vh;
   width: 100vw;
-  background: lightgrey;
+  background: #b4b4b4;
 `;

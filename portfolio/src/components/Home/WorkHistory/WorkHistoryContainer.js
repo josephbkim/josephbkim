@@ -20,4 +20,5 @@ const WorkHisCon = styled.div`
   /* border: 1px solid black; */
   background-color: lightgray;
   text-align: center;
+  font-family: Cinzel, sans-serif;
 `;
