@@ -9,10 +9,11 @@ class IntroText extends Component {
           <h2>Hello!</h2>
           <div>My Name is Joe and I'm a Web Developer!</div>
           <div>I'm a former commercial construction</div>{" "}
-          <div>project manager and I have a passion for</div>
-          <div>creating things, fixing things, and </div>
-          <div>helping people find what they are looking</div>
-          <div>for...</div>
+          <div>
+            project manager and I have a passion for creating things, fixing
+            things, and{" "}
+          </div>
+          <div>helping people find what they are looking for...</div>
         </div>
       </IntroTextDiv>
     );

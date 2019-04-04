@@ -26,17 +26,17 @@ class DropDown extends Component {
         </Button>
         <DropdownMenu hidden={hidden}>
           <DropdownItem>
-            <Link to="/" style={{ color: "black" }}>
+            <Link to="/" style={{ color: "black" }} onClick={!hidden}>
               Home
             </Link>
           </DropdownItem>
           <DropdownItem>
-            <Link to="/projects" style={{ color: "black" }}>
+            <Link to="/projects" style={{ color: "black" }} onClick={!hidden}>
               Projects
             </Link>
           </DropdownItem>
           <DropdownItem>
-            <Link to="/contact" style={{ color: "black" }}>
+            <Link to="/contact" style={{ color: "black" }} onClick={!hidden}>
               Contact
             </Link>
           </DropdownItem>

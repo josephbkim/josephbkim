@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import HomePage from "./components/HomePage";
 import Projects from "./components/ProjectGallery/Projects";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume/Resume";
 
 // import { library } from "@fortawesome/fontawesome-svg-core";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -25,6 +26,7 @@ class App extends Component {
             <Route exact path="/" component={HomePage} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/resume" component={Resume} />
           </Switch>
         </div>
       </Router>

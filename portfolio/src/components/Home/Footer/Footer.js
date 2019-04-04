@@ -50,7 +50,7 @@ export default Footer;
 
 const FooterDiv = styled.div`
   display: flex;
-  height: 20vh;
+  height: 15vh;
   background: #000000;
   justify-content: space-around;
 `;

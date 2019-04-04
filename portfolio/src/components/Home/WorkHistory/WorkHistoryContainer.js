@@ -18,7 +18,7 @@ export default WorkHistoryContainer;
 const WorkHisCon = styled.div`
   height: 50vh;
   /* border: 1px solid black; */
-  background-color: lightgray;
+  background: linear-gradient(135deg, #b4b4b4 0%, whitesmoke 100%);
   text-align: center;
   font-family: Cinzel, sans-serif;
 `;

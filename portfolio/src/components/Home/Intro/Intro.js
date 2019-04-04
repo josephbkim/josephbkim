@@ -20,5 +20,6 @@ const IntroDiv = styled.div`
   display: flex;
   height: 50vh;
   width: 100vw;
-  background: #b4b4b4;
+  background: linear-gradient(135deg, #b4b4b4 0%, whitesmoke 100%);
+  /* background: #b4b4b4; */
 `;
