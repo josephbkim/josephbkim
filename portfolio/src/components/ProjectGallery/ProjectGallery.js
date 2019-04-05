@@ -7,31 +7,24 @@ import RightWindow from "./RightWindow";
 import ImageGrid from "./ImageGrid";
 
 class ProjectGallery extends Component {
-  state = {
-    projectOneImages: {
-      images: [
-        "https://i.imgur.com/NjoVpJL.png",
-        "https://i.imgur.com/k5GAK8A.png",
-        
-      ]
-    }
-  };
-  //   componentDidMount() {
-  //     axios.get("https://react-hacker.danzuzevich.com/thumbnails").then(res => {
-  //       console.log(res.data.thumbnails);
-  //     });
-  //   }
   render() {
     return (
-      <GalleryDiv>
-        <LeftDiv style={{ flex: 1 }}>
-          <LeftWindow />
-          <ImageGrid />
-        </LeftDiv>
-        <RightDiv>
-          <RightWindow />
-        </RightDiv>
-      </GalleryDiv>
+      <div>
+        {this.props.projects.map(project => (
+          <GalleryDiv>
+            <LeftDiv style={{ flex: 1 }}>
+              <LeftWindow images={project.images} />
+              <ImageGrid images={project.images} />
+            </LeftDiv>
+            <RightDiv>
+              <RightWindow
+                title={project.title}
+                description={project.description}
+              />
+            </RightDiv>
+          </GalleryDiv>
+        ))}
+      </div>
     );
   }
 }
@@ -39,16 +32,20 @@ class ProjectGallery extends Component {
 export default ProjectGallery;
 
 const GalleryDiv = styled.div`
-  background-color: white;
+  background-color: black;
   height: 35vh;
   width: 70vw;
   margin: 40px auto;
   display: flex;
-  border-radius: 1px;
+  border: 1px solid black;
+  border-radius: 2%;
+  box-shadow: 6px 8px 2px 1px rgba(0, 0, 0, 0.25);
 `;
 
 const LeftDiv = styled.div`
   width: 50%;
+  border-radius: 2%;
+  background-color: black;
 `;
 
 const RightDiv = styled.div`

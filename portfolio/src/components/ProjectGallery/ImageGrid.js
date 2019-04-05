@@ -7,9 +7,9 @@ class ImageGrid extends Component {
   render() {
     return (
       <GridDiv>
-        <Image />
-        <Image />
-        <Image />
+        {this.props.images.map(image => (
+          <Image images={image} />
+        ))}
       </GridDiv>
     );
   }
@@ -18,8 +18,8 @@ class ImageGrid extends Component {
 export default ImageGrid;
 
 const GridDiv = styled.div`
-  height: 35%;
+  height: 34.7%;
   width: 100%;
-  background-color: yellow;
   display: flex;
+  justify-content: space-around;
 `;
